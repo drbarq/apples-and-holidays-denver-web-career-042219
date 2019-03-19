@@ -83,7 +83,7 @@ def all_supplies_in_holidays(holiday_hash)
         puts "#{holiday.to_s.capitalize}:"
         puts supply
       end
-      
+
       ##  supply.collect do |supply|
       ##    supply_array = Array.new
       ##    supply_array << supply
