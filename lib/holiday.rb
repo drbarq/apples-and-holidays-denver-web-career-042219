@@ -84,9 +84,9 @@ def all_supplies_in_holidays(holiday_hash)
         supply.collect do |supply|
           puts "#{supply.to_s.capitalize}"
 
-      
+
     end
-  
+
 
 
   ##  supply.collect do |supply|
