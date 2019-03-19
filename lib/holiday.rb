@@ -82,22 +82,11 @@ def all_supplies_in_holidays(holiday_hash)
         puts "#{holiday.to_s.capitalize}: "
       end
         supply.collect do |supply|
-          puts "#{supply.to_s.capitalize}"
-        end 
+          puts "#{supply}"
+        end
 
 
     end
-
-
-
-  ##  supply.collect do |supply|
-  ##      supply.to_s.capitalize
-  ##    end
-
-  ##    end
-  ##    holiday.to_s.capitalize
-
-##end
 
 end
 
