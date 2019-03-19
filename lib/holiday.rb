@@ -84,12 +84,8 @@ def all_supplies_in_holidays(holiday_hash)
         supply.collect do |supply|
           puts "#{supply}"
         end
-
-
     end
-
-end
-
+  end
 end
 
 
