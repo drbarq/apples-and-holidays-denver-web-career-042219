@@ -84,9 +84,9 @@ def all_supplies_in_holidays(holiday_hash)
       if holiday.to_s.include?("_")
         holiday_string = String.new
         holiday.to_s.split("_").collect do |word|
-      ##  holiday_string << word.capitalize!
-            puts "#{word} "
-
+        holiday_string << word.capitalize!
+            puts "#{word.capitalize}".join(" ")
+            puts holiday_string
       end
     end
   end
