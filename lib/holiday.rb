@@ -79,7 +79,7 @@ def all_supplies_in_holidays(holiday_hash)
       ##    end
       ##    holiday_array.join(" ")
     ##    else
-    ##      holiday.to_s.capitalize
+          holiday.to_s.capitalize
     ##    end
     supply.collect do |supply|
         supply.to_s.capitalize
