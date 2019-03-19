@@ -32,7 +32,7 @@ def add_supply_to_winter_holidays(holiday_hash, supply)
       if holiday == :christmas
         binding.pry
         puts :christmas
-         << supply_var
+      #   << supply_var
       end
       puts holiday_hash
     end
