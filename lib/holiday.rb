@@ -33,7 +33,6 @@ def add_supply_to_winter_holidays(holiday_hash, supply)
         supplies << supply_var
       end
     end
-
   end
 puts holiday_hash
 end
