@@ -77,7 +77,7 @@ def all_supplies_in_holidays(holiday_hash)
   # etc.
 
   holiday_hash.each do |season, holiday|
-    season.to_s.capitalize 
+  return  season.to_s.capitalize 
     holiday.each do |holiday, supply|
       if holiday.to_s.include?("_")
         holiday_array = Array.new
