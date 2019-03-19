@@ -30,6 +30,9 @@ def add_supply_to_winter_holidays(holiday_hash, supply)
     if season == :winter
       if holiday == :christmas
         :christmas << supply
+      end 
+    end 
+  end
 
 end
 
