@@ -86,7 +86,7 @@ def all_supplies_in_holidays(holiday_hash)
         supply.collect do |supply|
           supply_string = String.new
           supply_string << supply.to_s
-          puts "#{supply}"
+        ##  puts "#{supply}"
           puts supply_string
         ##  puts "#{supply.to_s}"
         end
