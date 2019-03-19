@@ -81,15 +81,14 @@ def all_supplies_in_holidays(holiday_hash)
       else
         puts "#{holiday.to_s.capitalize}: "
       end
-    end
-    ##    holiday_array = Array.new
-      ##  holiday.to_s.split("_").collect do |word|
-        ##  holiday_array << word.capitalize!
-      ##    end
-      ##    holiday_array.join(" ")
-    ##    else
+        supply.collect do |supply|
+          puts "#{supply.to_s.capitalize}"
 
-    ##    end
+      
+    end
+  
+
+
   ##  supply.collect do |supply|
   ##      supply.to_s.capitalize
   ##    end
