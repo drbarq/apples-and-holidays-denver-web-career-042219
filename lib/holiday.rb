@@ -87,12 +87,9 @@ def all_supplies_in_holidays(holiday_hash)
           supply_string = String.new
           supply_string << supply.to_s
           puts "#{supply}"
-          puts supply_array
+          puts supply_string
         ##  puts "#{supply.to_s}"
         end
-
-
-
     end
   end
 end
