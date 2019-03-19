@@ -81,17 +81,17 @@ def all_supplies_in_holidays(holiday_hash)
       ##  puts "#{supply}"
       else
         puts "#{holiday.to_s.capitalize}:"
-
       end
 
-      ##  supply.collect do |supply|
-      ##    supply_array = Array.new
-      ##    supply_array << supply
-      ##    puts "#{supply}"
-      ##    puts supply_array
-      ##  end
+        supply.collect do |supply|
+          supply_string = String.new
+          supply_string << supply.to_s
+          puts "#{supply}"
+          puts supply_array
+        ##  puts "#{supply.to_s}"
+        end
 
-      ## #{supply.to_s}
+
 
     end
   end
