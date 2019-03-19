@@ -82,8 +82,8 @@ def all_supplies_in_holidays(holiday_hash)
 
 
     holiday.to_s.split("_").collect do |word|
-         word.capitalize!
-         return 
+        word.capitalize!
+
       end
     end
   end
