@@ -97,7 +97,7 @@ end
 
 
 
-
+=begin
 holiday_supplies =  {
     :winter => {
       :christmas => ["Lights", "Wreath"],
@@ -113,3 +113,4 @@ holiday_supplies =  {
       :memorial_day => ["BBQ"]
     }
   }
+  =end 
