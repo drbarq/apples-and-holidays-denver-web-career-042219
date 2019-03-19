@@ -92,6 +92,7 @@ def all_supplies_in_holidays(holiday_hash)
       end
     supply.each do |supply|
         puts "#{supply.to_s.capitalize}"
+      end 
 
       end
     end
